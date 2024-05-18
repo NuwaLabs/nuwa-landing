@@ -54,7 +54,7 @@ export default function PageTwo() {
           content="Dive into advanced NLP research at Role.ai. Explore our focus on text understanding, generation, and intelligent dialogue technologies."
         />
       </Helmet>
-      <div className="flex w-full h-[100vh] flex-col items-center gap-[107px] bg-gray-100 pt-[95px] shadow-xs md:gap-20 md:pt-5 sm:gap-[53px]">
+      <div className="flex w-full h-[100vh] relative flex-col items-center gap-[107px] bg-gray-100 pt-[95px] shadow-xs md:gap-20 md:pt-5 sm:gap-[53px]">
         {/* header section */}
         {/*<CommonHeader />*/}
         <div></div>
@@ -80,7 +80,7 @@ export default function PageTwo() {
 
               </div>
             </div>
-            <div className="mx-auto flex w-full max-w-[1305px] flex-col items-center md:p-5">
+            <div className="mx-auto flex w-full max-w-[1305px] flex-col items-center md:p-5 absolute top-[61%]">
               <div className="flex items-start gap-[30px] self-stretch md:flex-col">
                 <Text size="4xl" as="p" className="w-[39%] !font-pangmenzhengdao md:w-full">
                   <span className="text-black-900_03">
